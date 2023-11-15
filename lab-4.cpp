@@ -7,8 +7,8 @@ int n;
 
 
 
-bool YesNo(int n) {
-	if ((n*n + n) % 4 != 0) {
+bool YesNo(int y) {
+	if ((y*y + y) % 4 != 0) {
 		return true;
 	}
 	else {
